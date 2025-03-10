@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+@main // that is Entry point for my app .
 struct SwiftUI_Essentials_HubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView() // that is first screen when app opened -> (Home)
         }
     }
 }
