@@ -14,6 +14,7 @@
 		32B383E52DED91C400961D25 /* SwiftUIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B383E42DED91C400961D25 /* SwiftUIColors.swift */; };
 		32B383E72DEDB2CC00961D25 /* SwiftUIGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B383E62DEDB2CC00961D25 /* SwiftUIGradientColor.swift */; };
 		32B383E92DEDBC1100961D25 /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B383E82DEDBC1100961D25 /* SwiftUIImage.swift */; };
+		32B383EB2DEDDA8B00961D25 /* SwiftUIAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B383EA2DEDDA8B00961D25 /* SwiftUIAsyncImage.swift */; };
 		32E4E6922DE73CE400E16DFE /* SwiftUIEllipse& Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E4E6912DE73CE400E16DFE /* SwiftUIEllipse& Rectangle.swift */; };
 		32EB84862D7EF89600653756 /* SwiftUIText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB84852D7EF89600653756 /* SwiftUIText.swift */; };
 		32EB84882D7F1E7900653756 /* SwiftUICircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB84872D7F1E7900653756 /* SwiftUICircle.swift */; };
@@ -28,6 +29,7 @@
 		32B383E42DED91C400961D25 /* SwiftUIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIColors.swift; sourceTree = "<group>"; };
 		32B383E62DEDB2CC00961D25 /* SwiftUIGradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGradientColor.swift; sourceTree = "<group>"; };
 		32B383E82DEDBC1100961D25 /* SwiftUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
+		32B383EA2DEDDA8B00961D25 /* SwiftUIAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAsyncImage.swift; sourceTree = "<group>"; };
 		32E4E6912DE73CE400E16DFE /* SwiftUIEllipse& Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIEllipse& Rectangle.swift"; sourceTree = "<group>"; };
 		32EB84852D7EF89600653756 /* SwiftUIText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIText.swift; sourceTree = "<group>"; };
 		32EB84872D7F1E7900653756 /* SwiftUICircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICircle.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				32B383E42DED91C400961D25 /* SwiftUIColors.swift */,
 				32B383E62DEDB2CC00961D25 /* SwiftUIGradientColor.swift */,
 				32B383E82DEDBC1100961D25 /* SwiftUIImage.swift */,
+				32B383EA2DEDDA8B00961D25 /* SwiftUIAsyncImage.swift */,
 				3271B9F52D785EEF00C59A58 /* Assets.xcassets */,
 				3271B9F72D785EEF00C59A58 /* Preview Content */,
 			);
@@ -160,6 +163,7 @@
 				32E4E6922DE73CE400E16DFE /* SwiftUIEllipse& Rectangle.swift in Sources */,
 				32B383E92DEDBC1100961D25 /* SwiftUIImage.swift in Sources */,
 				3271B9F22D785EED00C59A58 /* SwiftUI_Essentials_HubApp.swift in Sources */,
+				32B383EB2DEDDA8B00961D25 /* SwiftUIAsyncImage.swift in Sources */,
 				32EB84882D7F1E7900653756 /* SwiftUICircle.swift in Sources */,
 				32B383E72DEDB2CC00961D25 /* SwiftUIGradientColor.swift in Sources */,
 				32B383E52DED91C400961D25 /* SwiftUIColors.swift in Sources */,

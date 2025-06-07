@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_Essentials_HubApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView() // that is first screen when app opened -> (Home)
+            SwiftUIAsyncImage() // that is first screen when app opened -> (Home)
         }
     }
 }
