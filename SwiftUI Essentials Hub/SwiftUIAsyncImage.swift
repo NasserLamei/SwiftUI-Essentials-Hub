@@ -8,18 +8,19 @@
 import SwiftUI
 
 struct SwiftUIAsyncImage: View {
-    let url = URL(string: "https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY")
+    let url = URL(string: "https://picsum.photos/400")
     var body: some View {
         
         AsyncImage(url: url) { phase in
             switch phase{
             case .empty:
               //  ProgressView()
-                Text("nasseerr lamei")
+                Text("nasserr lamei -- Loading --")
             case .success(let img):
                 img.resizable()
                     .scaledToFit()
-                    .frame(width: 300, height: 300, alignment: .center)
+                   // .frame(width: 400, height: 400, alignment: .center)
+                    .frame(width: UIScreen.main.bounds.width * 0.9, height: UIScreen.main.bounds.height * 0.7, alignment: .center)
             case .failure(_):
                 Image(.splash)
             @unknown default:
